@@ -1,0 +1,394 @@
+// espeak-ng
+// ph_letzebuergesch
+// created by Marco Barnig mbarnig@pt.lu
+// 15.9.2018
+//
+//=========================================================
+// Lëtzebuergesch
+//=========================================================
+
+
+// 14 monophtongs
+
+phoneme iː
+  vwl starttype #i endtype #i
+  ipa iː
+  length 300
+  FMT(vowel/i)
+endphoneme
+
+phoneme eː
+  vwl starttype #e endtype #e
+  ipa eː
+  length 300
+  FMT(vowel/e)
+endphoneme
+
+phoneme ɛː 			// Eː
+  vwl starttype #e endtype #e
+  ipa ɛː
+  length 300
+  FMT(vowel/e_8)
+endphoneme
+
+phoneme aː
+  vwl starttype #a endtype #a
+  ipa aː
+  length 300
+  FMT(vowel/a)
+endphoneme
+
+phoneme oː
+  vwl starttype #o endtype #o
+  ipa oː
+  length 300
+  FMT(vowel/o)
+endphoneme
+
+phoneme uː
+  vwl starttype #u endtype #u
+  ipa uː
+  length 300
+  FMT(vowel/u)
+endphoneme
+
+phoneme ə  			// schwa
+  vwl starttype #@ endtype #@
+  unstressed
+  length 120
+  FMT(vowel/@)
+endphoneme
+
+phoneme i
+  vwl starttype #i endtype #i
+  ipa iː
+  length 170
+  FMT(vowel/i)
+endphoneme
+
+phoneme e
+  vwl starttype #e endtype #e
+  ipa eː
+  length 170
+  FMT(vowel/e)
+endphoneme
+
+phoneme æ  			// {
+  vwl starttype #a endtype #a
+  ipa æ
+  length 170
+  FMT(vowel/a)
+endphoneme
+
+phoneme ɑ  			// A
+  vwl starttype #a endtype #a
+  ipa ɑ
+  length 200
+  FMT(vowel/a)
+endphoneme
+
+phoneme o
+  vwl starttype #o endtype #o
+  ipa oː
+  length 170
+  FMT(vowel/o)
+endphoneme
+
+phoneme u
+  vwl starttype #u endtype #u
+  ipa uː
+  length 170
+  FMT(vowel/u)
+endphoneme
+
+phoneme ɐ  			// 6  open-schwa
+  vwl starttype #@ endtype #@
+  ipa ɐ
+  length 140
+  FMT(vowel/a#_3)   
+endphoneme
+
+
+// 3 additional vowels from dictionary
+
+phoneme ɑː  			// Aː
+  vwl starttype #a endtype #a
+  ipa ɑː
+  length 250
+  FMT(vowel/aa_6)
+endphoneme
+
+//phoneme œː  			// 9ː
+
+//endphoneme
+
+//phoneme ɔː 			// 0ː
+
+//endphoneme
+
+// 8 diphtongs
+
+phoneme iə  			// i@
+  vwl starttype #i endtype #@
+  ipa iə
+  length 230
+  FMT(vdiph/i@_2)
+endphoneme
+
+phoneme ɜɪ  			// Ei
+  vwl starttype #e endtype #i
+  ipa ɜɪ
+  length 230
+  FMT(vdiph/ei)
+endphoneme
+
+phoneme æɪ  			// {ːi error with :
+  vwl starttype #a endtype #i
+  ipa æːɪ
+  length 300
+  FMT(vdiph/ai)
+endphoneme
+
+phoneme ɑɪ  			// AI
+  vwl starttype #a endtype #i
+  ipa ɑɪ
+  length 230
+  FMT(vdiph/ai)
+endphoneme
+
+phoneme uə  			// u@
+  vwl starttype #u endtype #@
+  ipa uə
+  length 230
+  FMT(vdiph2/u@)
+endphoneme
+
+phoneme əʊ  			// @U
+  vwl starttype #@ endtype #u
+  ipa əʊ
+  length 230
+  FMT(vdiph/@u)
+endphoneme
+
+phoneme æʊ  			// {ːU  error with :
+  vwl starttype #a endtype #u
+  ipa æːʊ
+  length 300
+  FMT(vdiph/au)
+endphoneme
+
+phoneme ɑʊ  			// AU
+  vwl starttype #a endtype #u
+  ipa ɑʊ
+  length 230
+  FMT(vdiph/au)
+endphoneme
+
+// 26 consonants
+
+phoneme p			// p
+  vls blb stp
+  ipa p
+  lengthmod 2
+  WAV(ustop/p)
+endphoneme
+
+phoneme t			// t
+  vls alv stp
+  ipa t
+  lengthmod 2
+  WAV(ustop/t, 90)
+endphoneme
+
+phoneme k			// k
+  vls vel stp
+  ipa k
+  lengthmod 2
+  WAV(ustop/k)
+endphoneme
+
+phoneme f			// f
+  vls lbd frc
+  ipa f
+  lengthmod 3
+  WAV(ufric/f)
+endphoneme
+
+phoneme s			// s
+  vls alv frc sib
+  ipa s
+  lengthmod 3
+  WAV(ufric/s)
+endphoneme
+
+phoneme ʃ			// S
+  vls uvl frc
+  ipa ʃ
+  lengthmod 3
+  WAV(ufric/sh)
+endphoneme
+
+phoneme ɕ			// s/  allophone of χ
+  vls vel frc
+  ipa χ
+  lengthmod 3
+  WAV(ufric/x)
+endphoneme
+
+phoneme ʑ			// z/  allophone of ʁ
+  vcd uvl frc
+  ipa ʁ
+  lengthmod 6
+  FMT(voc/Q_ulv) addWav(ufric/xx, 80)
+endphoneme
+
+phoneme χ			// X
+  vls vel frc
+  ipa χ
+  lengthmod 3
+  WAV(ufric/x)
+endphoneme
+
+phoneme h
+  vls glt apr
+  ipa h
+  lengthmod 3  
+  IF nextPh(#@) THEN
+    WAV(h/h@)
+  ELIF nextPh(#a) THEN
+    WAV(h/ha)
+  ELIF nextPh(#e) THEN
+    WAV(h/he)
+  ELIF nextPh(#i) THEN
+    WAV(h/hi)
+  ELIF nextPh(#o) THEN
+    WAV(h/ho)
+  ELIF nextPh(#u) THEN
+    WAV(h/hu)
+  ENDIF
+  WAV(h/h_, 70)  // no vowel following
+endphoneme
+
+phoneme m
+  vcd blb nas
+  ipa m
+  lengthmod 4
+  FMT(m/m_)
+endphoneme
+
+phoneme n
+  vcd alv nas
+  ipa n
+  lengthmod 4
+  FMT(n/n_)
+endphoneme
+
+phoneme ŋ				// N
+  vcd vel nas
+  ipa ŋ
+  lengthmod 8
+  FMT(nn/nn_)
+endphoneme
+
+phoneme b				// b
+  vcd blb stp
+  ipa b
+  lengthmod 5   
+  FMT(b/b) addWav(x/b)
+endphoneme
+
+phoneme d
+  vcd alv stp
+  ipa d
+  lengthmod 5
+  FMT(d/d) addWav(x/d)
+endphoneme
+
+phoneme g
+  vcd vel stp
+  ipa g
+  lengthmod 5
+  FMT(g/g) addWav(x/g2, 150)
+endphoneme
+
+phoneme v
+  vcd lbd frc
+  ipa v
+  lengthmod 6  
+  FMT(voc/v) addWav(vocw/v, 60)
+endphoneme
+
+phoneme z
+  vcd alv frc sib
+  ipa z
+  lengthmod 6
+  FMT(voc/z) addWav(ufric/s_, 85)
+endphoneme
+
+phoneme ʒ				// Z   often substituted with j
+  liquid pal starttype #i
+  ipa j
+  lengthmod 7
+  FMT(j/j_)
+endphoneme
+
+phoneme ʀ
+  vcd uvl frc
+  ipa ʀ
+  lengthmod 6
+  FMT(r3/r_uvl) addWav(r3/r_uvl.wav, 75)
+endphoneme
+
+phoneme ʁ
+  vcd uvl frc
+  ipa ʁ
+  lengthmod 6
+  FMT(voc/Q_ulv) addWav(ufric/xx, 80)
+endphoneme
+
+phoneme tʃ				// tS
+  vls pla afr sib
+  ipa tʃ
+  lengthmod 6  
+  WAV(ustop/tsh)
+endphoneme
+
+phoneme ʦ				// ts
+  vls alv afr sib
+  ipa ʦ
+  lengthmod 2
+  WAV(ustop/ts)
+endphoneme
+
+phoneme w				// allophone of v
+  vcd lbd frc
+  ipa v
+  lengthmod 6  
+  FMT(voc/v) addWav(vocw/v, 60)
+endphoneme
+
+phoneme l
+  liquid
+  ipa l
+  lengthmod 7
+  FMT(l/l)
+endphoneme
+
+phoneme j
+  liquid pal starttype #i
+  ipa j
+  lengthmod 7
+  FMT(j/j_)
+endphoneme
+
+// silence
+
+// phoneme _
+// endphoneme
+
+// additional phonemes imported from german, french and english
+
+
+
+
+  

@@ -1998,3 +1998,7 @@ include ph_maori
 
 phonemetable shn base1
 include ph_shan
+
+phonemetable lb base
+include ph_letzebuergesch
+
