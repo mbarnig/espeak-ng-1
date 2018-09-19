@@ -1,0 +1,110 @@
+// espeak-ng
+// lb_rules
+// created by Marco Barnig  mbarnig@pt.lu
+// 15.9.2018
+// 
+// Lëtzebuergesch
+//
+
+.group a
+	a	aː
+
+
+.group b
+	b	b
+
+
+.group c
+	ch	ɕ
+
+
+.group d
+	d	d
+
+
+.group e
+	e	eː
+
+
+.group f
+	f	f
+
+
+.group g
+	g	g
+
+
+.group h
+	h	h
+
+
+.group i
+	i	iː
+
+
+.group j
+	j	ʒ
+
+
+.group k
+	k	k
+
+
+.group l
+	l	l
+
+
+.group m
+	m	m
+
+
+.group n
+	n	n
+
+
+.group o
+	o	oː
+
+
+.group p
+	p	p
+
+
+.group q
+	q	kw
+
+
+.group r
+	r	ʀ
+
+
+.group s
+	s	s
+
+
+.group t
+	t	t
+
+
+.group u
+	u	uː
+
+
+.group v
+	v	v
+
+
+.group w
+	w	v
+
+
+.group x
+	x	ks
+
+
+.group y
+	y	i
+
+
+.group z
+	z	ʦ
