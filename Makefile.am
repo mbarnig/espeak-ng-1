@@ -349,6 +349,7 @@ phsource/phonemes.stamp: \
 	phsource/ph_kyrgyz \
 	phsource/ph_latin \
 	phsource/ph_latvian \
+	phsource/ph_letzebuergesch \
 	phsource/ph_lithuanian \
 	phsource/ph_lojban \
 	phsource/ph_macedonian \
@@ -502,6 +503,7 @@ dictionaries: \
 	espeak-ng-data/ku_dict \
 	espeak-ng-data/ky_dict \
 	espeak-ng-data/la_dict \
+	espeak-ng-data/lb-dict \
 	espeak-ng-data/lfn_dict \
 	espeak-ng-data/lt_dict \
 	espeak-ng-data/lv_dict \
