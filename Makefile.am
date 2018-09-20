@@ -503,7 +503,7 @@ dictionaries: \
 	espeak-ng-data/ku_dict \
 	espeak-ng-data/ky_dict \
 	espeak-ng-data/la_dict \
-	espeak-ng-data/lb-dict \
+	espeak-ng-data/lb_dict \
 	espeak-ng-data/lfn_dict \
 	espeak-ng-data/lt_dict \
 	espeak-ng-data/lv_dict \
